@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: cjohnston1.github.io/sitemap.xml
+Sitemap: https://cjohnston1.github.io/sitemap.xml
