@@ -1,0 +1,97 @@
+CONNOR JOHNSTON — PERSONAL WEBSITE
+
+This is a complete static website for GitHub Pages. No installation, build
+command, subscription, or API key is required. The docs folder is the website.
+Double-click docs/index.html to preview it in a web browser on your computer.
+
+PUT IT ON YOUR EXISTING GITHUB REPOSITORY
+
+1. Sign in to GitHub and open:
+   https://github.com/cjohnston1/cjohnston1.github.io
+   This address comes from your existing local website folder. If your actual
+   repository has another name, use that repository instead. For the homepage
+   address https://cjohnston1.github.io/, its name must be cjohnston1.github.io.
+
+2. Keep the repository. There is no need to delete it or remove the old site.
+   On its Code tab, choose Add file > Upload files. Drag the entire docs folder
+   from this package into the upload area. Upload the folder, not this ZIP and
+   not the outer connor-johnston-website folder.
+   The file list should include docs/index.html, docs/styles.css,
+   docs/404.html, and the files under docs/assets/.
+   If the repository already has a docs folder with important content, download
+   a backup first (Code > Download ZIP) before uploading files with matching names.
+   The package also includes docs/.nojekyll, a hidden empty file; keep it included
+   when uploading the folder. It tells GitHub to serve the files directly.
+
+3. Enter a commit message such as "Add personal research website". Commit the
+   files to the default branch (usually main). If GitHub offers a pull request
+   instead, create it and merge it. Existing files with different names remain.
+
+4. Open Settings > Pages. Under Build and deployment, set:
+   Source: Deploy from a branch
+   Branch: main (or the branch you uploaded to)
+   Folder: /docs
+   Click Save.
+   Selecting /docs makes this folder the published site, replacing whichever
+   old folder or workflow previously supplied your homepage.
+
+5. GitHub Free requires a public repository for Pages. Private repositories
+   can use Pages with an eligible paid plan, such as GitHub Pro. If you already
+   have Pro, you can keep the repository private and publish the website.
+   A private source repository does not make a personal Pages website private.
+   If you are on Free and want to change this repository to public, first review
+   its existing files and history: making the repository public exposes those
+   too. The setting is Settings > General > Danger Zone > Change visibility.
+   Do not change visibility just to follow these directions if the repository
+   contains material you want to keep private.
+
+6. Allow up to 10 minutes for publication. Settings > Pages will show a Visit
+   site link. Open it and confirm that the headshot and CV appear. The expected
+   address is https://cjohnston1.github.io/ if you use the repository above and
+   do not have a custom domain configured. Test the CV link there as well.
+   If a custom domain is already configured, Pages may use that address instead.
+
+IF SOMETHING DOESN'T APPEAR
+
+- A 404 usually means Pages is not enabled, the wrong branch/folder is selected,
+  or deployment is still running. Confirm docs/index.html is present on GitHub.
+- If the old website still appears, check Settings > Pages points to /docs and
+  reload with Command-Shift-R. The Actions tab shows deployment failures.
+- If Pages requests an upgrade for a private repository, see step 5.
+- Uploading a ZIP to the repository does not unpack or publish its contents.
+- If GitHub doesn't show the folder-upload option, drag docs directly into the
+  upload area in Chrome or Safari, preserving the folder structure.
+
+UPDATING YOUR SITE LATER
+
+CV: Replace docs/assets/Connor-Johnston-CV.pdf with a new PDF using the exact same
+filename. All CV links will continue working. The included PDF is your latest
+Industry CV from October 20, 2026, copied without modification.
+
+Bio and papers: Open docs/index.html on GitHub and choose the pencil icon. Edit
+the text and commit the change. Update the footer's "Last updated" date as needed.
+
+Photo: Replace docs/assets/connor-johnston.jpg with another portrait of the same
+filename. The current image is the professional headshot found in Downloads,
+copied without modification.
+
+Design: docs/styles.css controls the colors, type, spacing, and mobile layout.
+All fonts are system fonts. There is no JavaScript, tracking, or external font
+service. Your email is shown on the page; your phone number remains in the CV.
+
+CONTENT NOTES
+
+The employment, education, awards, and paper statuses were based on your
+October 20, 2026 CV versions. The research interests reflect your description:
+integer programming and nonconvex optimization. The public preprint was checked
+on arXiv. The site
+uses "Ph.D. student" rather than claiming candidate status, and does not claim
+that the Pyomo contribution has merged. Personal interests can be added later.
+
+OFFICIAL GITHUB GUIDANCE
+
+Creating a Pages site and eligible plans:
+https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+
+Choosing the publishing branch and folder:
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
